@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -22,23 +22,31 @@
 </head>
 
 <body>
-
+    <div class="cupom-text">
+        <p>30% OFF utilizando o cupom: UNIBRA.</p>
+    </div>
     <header id="navbar">
-        <a href="#" class="logo"><img src="imagem/logo.png" alt=""></a>
 
         <ul class="navmenu">
             <li><a href="#">home</a></li>
             <li><a href="#">produtos</a></li>
-            <li><a href="#">contato</a></li>
+            <li><a id="login-mobile" href="#">Entra</a></li>
         </ul>
 
-        <div class="nav-icon">
-            <a href="#"><i class='bx bx-search'></i></a>
-            <a href="#"><i class='bx bx-user'></i></a>
-            <a href="#"><i class='bx bx-cart'></i></a>
+        <a href="#" class="logo"><img src="imagem/logo.png" alt=""></a>
 
-            <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="nav-icon">
+            <form id="icon">
+                <a href="#"><i id="mode_icon" class='bx bx-sun'></i></a>
+                <a href="#"><i id="icon-0" class='bx bx-search'></i></a>
+                <a href="#"><i id="icon-0" class='bx bx-user'></i></a>
+                <a href="#"><i id="icon-0" class='bx bx-cart'></i></a>
+            </form>
+
+            <div class='bx bx-menu' id="menu-icon"></div>
+
         </div>
+
     </header>
 
     <section class="main-home">
@@ -80,7 +88,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "THERMAL VISION" POST-MODERN ART</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -102,7 +110,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "CERTIFIED LOVER"</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -122,7 +130,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "TAPPED HEART" CERTIFIED LOVER</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -144,7 +152,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "CERTIFIED LOVER" PRETA</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -164,7 +172,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "HEARTS" CERTIFIED LOVER</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -186,7 +194,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "KING" POST-MODERN ART</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -208,7 +216,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "vision" POST-MODERN ART</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
 
@@ -230,7 +238,7 @@
 
                 <div class="price">
                     <h4>T-SHIRT "FACE" POST-MODERN ART</h4>
-                    <p>$99 - $129</p>
+                    <p>R$99 - R$129</p>
                 </div>
             </div>
         </div>
@@ -289,61 +297,59 @@
     </section>
 
     <!-- seção-de-contato -->
-    <section class="contact">
-        <div class="contact-info">
-            <div class="first-info">
-                <img src="imagem/logo.png" alt="">
+    <footer>
+        <section class="contact">
+            <div class="contact-info">
+                <div class="first-info">
+                    <img src="imagem/logo.png" alt="">
 
-                <p>3245 Grant Street Longview, <br> Pernambuco Brasil - 50080-000</p>
-                <p>81 983 511 451</p>
-                <p>Trevo.co@gmail.com</p>
+                    <p>3245 Grant Street Longview, <br> Pernambuco Brasil - 50080-000</p>
+                    <p>81 983 511 451</p>
+                    <p>Trevo.co@gmail.com</p>
 
-                <div class="social-icon">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-youtube'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <div class="social-icon">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="second-info">
-                <h4>Suporte</h4>
-                <p>Contate-Nos</p>
-                <p>Sobre A Página</p>
-                <p>Guia De Tamanho</p>
-                <p>Compras E Devoluções</p>
-                <p>Privacidade</p>
-            </div>
+                <div class="second-info">
+                    <h4>Suporte</h4>
+                    <p>Contate-Nos</p>
+                    <p>Sobre A Página</p>
+                    <p>Guia De Tamanho</p>
+                    <p>Compras E Devoluções</p>
+                    <p>Privacidade</p>
+                </div>
 
-            <div class="third-info">
-                <h4>Comprar</h4>
-                <p>Unisex</p>
-                <p>Masculina</p>
-                <p>Desconto</p>
-            </div>
+                <div class="third-info">
+                    <h4>Comprar</h4>
+                    <p>Unisex</p>
+                    <p>Masculina</p>
+                    <p>Desconto</p>
+                </div>
 
-            <div class="fourth-info">
-                <h4>EMPRESA</h4>
-                <p>Sobre</p>
-                <p>Blog</p>
-                <p>Afiliado</p>
-                <p>Conecte-Se</p>
-            </div>
+                <div class="fourth-info">
+                    <h4>EMPRESA</h4>
+                    <p>Sobre</p>
+                    <p>Blog</p>
+                    <p>Afiliado</p>
+                    <p>Conecte-Se</p>
+                </div>
 
+            </div>
+        </section>
+
+        <div class="end-text">
+            <p>Copyright © @2023. Todos os direitos reservados. Projetado por Everton Ribeiro.</p>
         </div>
-    </section>
-
-    <div class="end-text">
-        <p>Copyright © @2023. Todos os direitos reservados. Projetado por Everton Ribeiro.</p>
-    </div>
-
-
-
-
-
-
-    <script src="java.js"></script>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 
 </body>
 
